@@ -6,11 +6,9 @@ public class BhaskaraCalculator {
         try (Scanner scanner = new Scanner(System.in)) { 
             System.out.print("Digite três números (A B C): "); 
             double A, B, C; 
-            A = scanner.nextDouble(); B = scanner.nextDouble(); C = scanner.nextDouble();
-
-
+            A = scanner.nextDouble(); B = scanner.nextDouble(); C = scanner.nextDouble(); // Introdução dos dados
             
-            double mult = A * C * 4; // Multiplicação
+            double mult = 4 * A * C; // Multiplicação
             double potencia = Math.pow(B, 2); // Potência
             double delta = potencia - mult; // Cálculo do delta
 
