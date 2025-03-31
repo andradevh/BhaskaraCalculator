@@ -1,4 +1,9 @@
 package com.mycompany.programa1;
+
+// Author: andradevh
+// Date: 31/03/2025 
+// Description: Programa em java para resolução de Bhaskara
+
 import java.util.Scanner;
 
 public class BhaskaraCalculator {
